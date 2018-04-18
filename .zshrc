@@ -56,3 +56,11 @@ function _update_vcs_info_msg() {
 add-zsh-hook precmd _update_vcs_info_msg
 
 # Aliases
+alias sgui='export LANG=ja_JP.utf8 && mono ~/shogi/ShogiGUI/ShogiGUI.exe'
+alias apt='sudo apt'
+
+# Functions
+function s() {
+  for word in $*
+  google-chrome "https://www.google.com/search?q=${word}" > /dev/null
+}
