@@ -56,11 +56,9 @@ function _update_vcs_info_msg() {
 add-zsh-hook precmd _update_vcs_info_msg
 
 # Aliases
-alias sgui='export LANG=ja_JP.utf8 && mono ~/shogi/ShogiGUI/ShogiGUI.exe'
-alias apt='sudo apt'
+alias reboot='sudo reboot'
+alias aptug='sudo apt update && sudo apt upgrade -y && sudo apt autoclean && sudo apt autoremove -y --purge'
 
-# Functions
-function s() {
-  for word in $*
-  google-chrome "https://www.google.com/search?q=${word}" > /dev/null
-}
+alias gst='git status' gl='git log' gb='git branch' gc='git checkout' gcb='git checkout -b' gplo='git pull origin' gmg='git merge' gad='git add' gcm='git commit -m' gsts='git stash' gstsp='git stash pop' gpso='git push origin'
+
+alias dckr-stop='sudo docker kill $(sudo docker ps -q) && sudo docker rm $(sudo docker ps -a -q)'
