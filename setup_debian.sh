@@ -12,7 +12,7 @@ wget -nc https://raw.githubusercontent.com/Kunimaru/personal-configuration-files
 wget -nc https://raw.githubusercontent.com/Kunimaru/personal-configuration-files/refs/heads/master/.vimrc
 
 # Add "contrib" and "non-free" to /etc/apt/sources.list
-sudo vi /etc/apt/sources.list
+sudo vi -N /etc/apt/sources.list
 
 # Install aptitude packages
 sudo apt update
