@@ -18,7 +18,7 @@ sudo apt update
 sudo apt install -y curl docker fonts-liberation git gnome-shell-extension-dashtodock gnome-shell-extension-gpaste ibus-mozc pulseaudio ufw xsel zsh
 
 # Set zsh as default
-sudo chsh -s /bin/zsh <username>
+chsh -s /bin/zsh
 
 # Setup Git
 git config --global push.default current
