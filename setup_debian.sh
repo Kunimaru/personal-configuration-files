@@ -42,5 +42,5 @@ read -p 'press enter to reboot...' TMP
 sudo reboot
 
 # Setup input method
-im-config
-ibus-setup
+# im-config
+# ibus-setup
