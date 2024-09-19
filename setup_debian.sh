@@ -1,8 +1,5 @@
 # Add user to sudoers
-# chmod +x setup_debian.sh
-# su
-# /sbin/adduser $USER sudo
-# pkill -u $USER
+# su root -c "/sbin/adduser $USER sudo && pkill -u $USER"
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
