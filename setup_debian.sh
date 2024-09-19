@@ -24,10 +24,6 @@ git config --global push.default current
 # Generate SSH for Github
 ssh-keygen -t ed25519
 
-# Setup input method
-im-config
-ibus-setup
-
 echo '# Install these packages manually.'
 
 # Install Bedtime Mode
@@ -44,3 +40,7 @@ firefox-esr --new-tab 'https://www.google.com/search?q=vscode'
 
 read -p 'press enter to reboot...' TMP
 sudo reboot
+
+# Setup input method
+im-config
+ibus-setup
