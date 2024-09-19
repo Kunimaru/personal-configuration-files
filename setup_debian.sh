@@ -28,7 +28,7 @@ ssh-keygen -t ed25519
 im-config
 ibus-setup
 
-echo '- Install these packages manually.'
+echo '# Install these packages manually.'
 
 # Install Bedtime Mode
 echo 'Bedtime Mode: https://www.google.com/search?q=gnome+bedtime+mode'
