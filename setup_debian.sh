@@ -1,4 +1,5 @@
 # Add user to sudoers
+# chmod +x setup_debian.sh
 # su
 # /sbin/adduser $USER sudo
 # pkill -u $USER
